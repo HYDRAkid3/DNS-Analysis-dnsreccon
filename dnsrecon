@@ -1,0 +1,7 @@
+*BASIC SCAN
+COMMAND - dnsrecon -d <target site> 
+DESCRIPTION - It is basically a python script which is having the ability to check Name Server records of the target site, bruteforce subdomains, check DNS server cached records, enumerate hosts and subdomains using google, etc.
+TO SAVE the output of dnsrecon in a file, use the following command :
+COMMAND - dnsrecon -d <target site> --csv /path/file1.csv 
+EXAMPLE - dnsrecon -d -w www.hfdjtq.com --csv /root/home/Documents/hello.csv (In this path = /root/home/Documents and i named the file as hello)
+Use dnsrecon -h or dns recon --help for the detailed description like you can also use -w in your command to to check the target with whois and reverse lookup.
